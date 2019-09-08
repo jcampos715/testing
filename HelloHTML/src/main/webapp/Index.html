@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Super Amazing Web Page</title>
+
+<!-- <Style>		Should not be used here, use css
+	.headers{
+	color: yellow}
+</Style> -->
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+	crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="Style.css" />
+</head>
+<body>
+	<button type="button" class="btn btn-danger">Warning</button>
+
+	<div class="headers">
+		<h1>HELLO HTML</h1>
+		<h3 id="legs">NUMBER OF LEGS</h3>
+		<!-- inline takes precident over css -->
+		<h5>NUMBER OF EYE TOPPINGS</h5>
+	</div>
+
+	<!-- span element is for in-line and is usually used for  -->
+
+	<p style="color: green">
+		<b> Meow and walk away. Chew foot vommit food and eat it again or
+			give me attention or face the wrath of my claws lie in the sink all
+			day for hiss and stare at nothing then run suddenly away. Purr when
+			being pet get scared by sudden appearance of cucumber has closed eyes
+			but still sees you i hate cucumber pls dont throw it at me. Refuse to
+			leave cardboard box destroy the blinds. I just saw other cats inside
+			the house and nobody ask me before using my litter box cough hairball
+			on conveniently placed pants vommit food and eat it again and use lap
+			as chair kick up litter. Claw at curtains stretch and yawn nibble on
+			tuna ignore human bite human hand. Spill litter box, scratch at
+			owner, destroy all furniture, especially couch destroy couch as
+			revenge or at four in the morning wake up owner meeeeeeooww scratch
+			at legs and beg for food then cry and yowl until they wake up at two
+			pm jump on window and sleep while observing the bootyful cat next
+			door that u really like but who already has a boyfriend end up making
+			babies with her and let her move in chirp at birds show belly. Cough
+			furball please stop looking at your phone and pet me sleep on my
+			human's head. Freak human out make funny noise mow mow mow mow mow
+			mow success now attack human chase dog then run away sit by the fire
+			poop on grasses but run off table persian cat jump eat fish run up
+			and down stairs. 
+	</p>
+	<!-- <img src="data:image/jpeg;base64,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"
+	 -->
+	<br />
+	<br />
+
+
+	<a href="http://www.catipsum.com/">Click for cat nonsense</a>
+
+	<form>
+		DA Best ice cream flavor: <Input type="text" name="ice cream"
+			placeholder="chocolate" /> <br /> Super Secret Password <Input
+			type="password" /> <br /> <Input type="radio"
+			name "yes" value="yes yes" /> yes yes <Input type="radio"
+			name "no" value="no no" /> nope
+	</form>
+
+	<br />
+	<br />
+
+	<table border="5">
+		<tr>
+			<th>Eyes</th>
+			<th>Legs</th>
+		</tr>
+		<tr>
+			<td>Row1,Column1</td>
+			<td>Row1,Column2</td>
+		</tr>
+		<tr>
+			<td>Row2,Column1</td>
+			<td>Row2,Column2</td>
+		</tr>
+	</table>
+
+	<br />
+	<br />
+
+	<ol>
+		Best Number of Legs:
+		<li>8</li>
+		<li>4</li>
+		<li>2</li>
+	</ol>
+
+	<ul>
+		<li>Hazel</li>
+		<li>Blue</li>
+		<li>Green</li>
+	</ul>
+
+	<!--  there is also definition list -->
+
+	<img
+		src="https://static3.cbrimages.com/wordpress/wp-content/uploads/2018/06/spider-man-ps4-game.jpg?q=50&fit=crop&w=798&h=407"
+		style width:auto>
+
+	<form class="needs-validation" novalidate>
+		<div class="form-row">
+			<div class="col-md-4 mb-3">
+				<label for="validationTooltip01">First name</label> <input
+					type="text" class="form-control" id="validationTooltip01"
+					placeholder="First name" value="Mark" required>
+				<div class="valid-tooltip">Looks good!</div>
+			</div>
+			<div class="col-md-4 mb-3">
+				<label for="validationTooltip02">Last name</label> <input
+					type="text" class="form-control" id="validationTooltip02"
+					placeholder="Last name" value="Otto" required>
+				<div class="valid-tooltip">Looks good!</div>
+			</div>
+			<div class="col-md-4 mb-3">
+				<label for="validationTooltipUsername">Username</label>
+				<div class="input-group">
+					<div class="input-group-prepend">
+						<span class="input-group-text"
+							id="validationTooltipUsernamePrepend">@</span>
+					</div>
+					<input type="text" class="form-control"
+						id="validationTooltipUsername" placeholder="Username"
+						aria-describedby="validationTooltipUsernamePrepend" required>
+					<div class="invalid-tooltip">Please choose a unique and valid
+						username.</div>
+				</div>
+			</div>
+		</div>
+		<div class="form-row">
+			<div class="col-md-6 mb-3">
+				<label for="validationTooltip03">City</label> <input type="text"
+					class="form-control" id="validationTooltip03" placeholder="City"
+					required>
+				<div class="invalid-tooltip">Please provide a valid city.</div>
+			</div>
+			<div class="col-md-3 mb-3">
+				<label for="validationTooltip04">State</label> <input type="text"
+					class="form-control" id="validationTooltip04" placeholder="State"
+					required>
+				<div class="invalid-tooltip">Please provide a valid state.</div>
+			</div>
+			<div class="col-md-3 mb-3">
+				<label for="validationTooltip05">Zip</label> <input type="text"
+					class="form-control" id="validationTooltip05" placeholder="Zip"
+					required>
+				<div class="invalid-tooltip">Please provide a valid zip.</div>
+			</div>
+		</div>
+		<button class="btn btn-primary" type="submit">Submit form</button>
+	</form>
+
+</body>
+</html>
