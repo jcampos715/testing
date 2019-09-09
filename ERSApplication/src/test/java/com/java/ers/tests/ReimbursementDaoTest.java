@@ -21,7 +21,7 @@ import com.java.ers.domain.Reimbursement;
 public class ReimbursementDaoTest {
 	private Timestamp submitted;
 
-	/*@Test
+	@Test
 	/*
 	 * Function to test the Insertion of new Reimbursement.
 	 */
@@ -222,6 +222,6 @@ public class ReimbursementDaoTest {
 		id = dao.getNextId();
 		assertEquals(6, id);
 		dao.delete();
-	}*/
+	}
 
 }
