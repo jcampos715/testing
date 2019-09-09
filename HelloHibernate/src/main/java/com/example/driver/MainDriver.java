@@ -24,6 +24,7 @@ public class MainDriver {
 	public static void main(String[] args) {
 		insertInitialValues();
 		System.out.println("done");
+		System.out.println("test works!")
 	}
 	
 	public static void insertInitialValues() {
