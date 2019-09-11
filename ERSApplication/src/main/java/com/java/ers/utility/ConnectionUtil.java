@@ -19,7 +19,7 @@ public class ConnectionUtil {
 	private static Connection connection;
 	
 	private static final String DB_URL = "jdbc:oracle:thin:@db0715bootcamp.c0szar4trj1r.us-east-2.rds.amazonaws.com:1521:orcl";
-	private static final String DB_USER = "chinook";
+	private static final String DB_USER = "dbMaster";
 	private static final String DB_PASS = "p4ssw0rd";
 	
 	/**
