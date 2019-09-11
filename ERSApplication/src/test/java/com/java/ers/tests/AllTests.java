@@ -6,11 +6,11 @@ import org.junit.runners.Suite.SuiteClasses;
 
 @RunWith(Suite.class)
 @SuiteClasses({
-	//ReimbursementDaoTest.class,
-	//RoleDaoTest.class,
-	//StatusDaoTest.class,
-	//TypeDaoTest.class,
-	//UserDaoTest.class
+	ReimbursementDaoTest.class,
+	RoleDaoTest.class,
+	StatusDaoTest.class,
+	TypeDaoTest.class,
+	UserDaoTest.class
 })
 public class AllTests {
 
